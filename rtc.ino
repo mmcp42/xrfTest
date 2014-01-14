@@ -108,7 +108,6 @@ void formatTimestamp(void)
 {
   static char months[][4] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "xxx"};
 
-  float temp;
   int day;
   int month;
     

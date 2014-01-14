@@ -72,7 +72,7 @@ void eepromRead(uint8_t *target, int offset, int size)
   {
     target[i] = EEPROM.read(offset + i);
   }
-  target[size-1] = '/0';
+  target[size-1] = '\0';
 }
 
 void eepromReadAll(void)

@@ -122,14 +122,10 @@ void flashFlushPage(int page)
 void flashRead(int page)
 {
   int record;
-  int col;
-  int i;
-  int data;
   float batteryVoltage;
 
   myHeader headerRecord;
   myRecord dataRecord;
-  uint8_t* ptr;
   
   Serial.print("read page ");
   Serial.println(page);
